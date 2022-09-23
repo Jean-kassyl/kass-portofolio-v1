@@ -1,6 +1,4 @@
 
-
-
 @font-face {
     font-family: "Liberation Serif", serif;
     src: url('./assets/fonts/LiberationSerif-Bold.ttf') format('ttf');
@@ -13,4 +11,13 @@
 
 h1, h1, h3 {
     font-family: "Liberation Serif";
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Liberation serif';
 }

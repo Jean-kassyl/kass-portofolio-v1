@@ -1,8 +1,10 @@
 import './index.scss'
+import Header from '../common/Header'
 
 const Home = () => (
     <div>
-        <h1>welcome to my portofolio</h1>
+        <Header />
+        <h1>WELCOME to my portofolio and</h1>
     </div>
 )
 
