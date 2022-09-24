@@ -1,5 +1,6 @@
 import './index.scss'
 import Header from '../common/Header'
+import Card from '../common/ProjectCard'
 
 const Home = () => {
     const titleColor = {"color": "hsl(228, 33%, 22%)"}
@@ -53,6 +54,13 @@ const Home = () => {
                     </div>
                     <div>
                         <h2 className="about-title"><span>About</span><span>.</span><span>/</span></h2>
+                    </div>
+                </section>
+
+                <section>
+                    <h2>Latest Projects</h2>
+                    <div>
+                        <Card />
                     </div>
                 </section>
                 
