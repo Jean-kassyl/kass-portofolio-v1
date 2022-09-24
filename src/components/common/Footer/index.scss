@@ -1,0 +1,28 @@
+@import '../../../sass/variables';
+
+
+
+footer {
+    padding: 30px 20px;
+    background-color: $primary-color;
+    display: flex;
+    justify-content: flex-end;
+
+
+    & > div {
+        display: flex;
+        justify-content: space-between;
+        gap: 70px;
+
+        p {
+            font-size: 1rem;
+            color: $secondary-color;
+        }
+
+        .icon {
+            width: 18px;
+            color: $secondary-color;
+            margin: 0 5px;
+        }
+    }
+}

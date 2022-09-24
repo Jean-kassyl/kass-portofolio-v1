@@ -69,3 +69,14 @@ p {
     }
 
 }
+
+.latest-projects {
+    margin-top: 100px;
+
+    h2 {
+        text-decoration: underline;
+        text-decoration-color: $primary-color;
+        margin-bottom: 60px;
+
+    }
+}

@@ -1,5 +1,6 @@
 import './index.scss';
 import SunnyDesk from '../../../assets/images/sunnyside-desk.png'
+import SunnyMob from '../../../assets/images/sunnyside-mob2.png'
 
 
 
@@ -13,7 +14,9 @@ const Card = () => {
                 <div className="desktop">
                     <img src={SunnyDesk} alt="sunnyside desktop" />
                 </div>
-                <div className="mobile"></div>
+                <div className="mobile">
+                    <img src={SunnyMob} alt="sunnyside mobile" />
+                </div>
             </div>
             <div className="textBlock">
                 <h4>Project title</h4>
