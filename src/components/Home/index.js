@@ -4,15 +4,14 @@ import Card from '../common/ProjectCard'
 import Footer from '../common/Footer'
 
 const Home = () => {
-    const titleColor = {"color": "hsl(228, 33%, 22%)"}
+    
     return (
         <div>
             <Header />
             <main>
                 <div>
-                    <h1>Hi, I am <span style={titleColor}>KASSYL</span></h1>
-                    <h2><span style={titleColor}> A SOFTWARE</span> developer </h2>
-                    <p style={titleColor}>passionate about using code to build easy and<br /> helpful web solutions <span>!</span></p>
+                    <h1>Hi, I am Kassyl, A Software Developer</h1>
+                    <p> who is passionate about using code to build easy and<br /> helpful web solutions <span>!</span></p>
                 </div>
 
                 <section className="about">
@@ -60,7 +59,8 @@ const Home = () => {
 
                 <section className="latest-projects">
                     <h2>Latest Projects</h2>
-                    <div>
+                    <div className="projects">
+                        <Card />
                         <Card />
                     </div>
                 </section>  

@@ -24,7 +24,16 @@ header {
 
     .items {
         display: flex;
-        gap: 25px;
+        gap: 20px;
+
+        li {
+            font-size: 1.2rem;
+            font-family: "Liberation serif";
+
+            &:hover {
+                color: blueviolet;
+            }
+        }
     }
 
     .socialIcon {
