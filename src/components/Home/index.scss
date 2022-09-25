@@ -78,3 +78,65 @@ p {
         gap: 50px;
     }
 }
+
+@media (max-width: $mobile-view){
+    main {
+        padding: 80px 0 5rem 0;
+
+        .padd {
+            padding-left: 30px;
+        }
+        
+        & >  div {
+            margin-bottom: 2rem;
+        }
+
+        & > div p {
+            font-weight: bold;
+        }
+    }
+
+    .about {
+        flex-direction: column;
+
+        .text {
+            order: 2;
+            padding-right: 0;
+
+            .mobile-back {
+                background-color: $primary-color;
+                padding-right: 20px;
+                padding-block: 10px;
+
+                p {
+                    color: $secondary-color;
+                }
+
+            }
+
+            .skills {
+                justify-content: center;
+                gap: 6rem;
+
+
+                li {
+                    color: $primary-color;
+                    font-weight: bold;
+                }
+
+            }
+
+           
+        }
+    }
+
+    .latest-projects {
+        margin-top: 30px;
+        padding: 0 20px;
+
+        .projects {
+            flex-direction: column;
+        }
+
+    }
+}
