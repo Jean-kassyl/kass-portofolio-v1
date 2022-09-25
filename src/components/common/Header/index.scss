@@ -15,6 +15,7 @@ header {
     justify-content: space-between;
     padding: 0 30px;
     padding-block: 10px;
+    
    
 
     .logo {
@@ -45,4 +46,58 @@ header {
         }
     }
 
+
+    .mobileMenu {
+        width: 30px;
+        height: 30px;
+        color: $primary-color;
+        border: 1px solid $hover-color;
+        border-radius: 3px;
+        padding: 3px;
+        cursor: pointer;
+        display: none;
+
+        
+
+    }
+
+}
+
+
+@media (max-width: 413px){
+    header {
+        width: 100%;
+        display: flex;
+        align-items: center;
+
+       
+
+        .mobile {
+            position: absolute;
+            flex-direction: row;
+            gap: 20px;
+            background-color: $primary-color;
+            width: 100%;
+            padding: 5px 0;
+            top: 80px;
+            left: 0;
+            justify-content: center;
+
+            li {
+                color: $secondary-color;
+
+                &:hover {
+                    color: $hover-color;
+                }
+            }
+        }
+
+        .mobileMenu {
+            display: block;
+
+            &:hover {
+                color: $hover-color;
+            }
+        }
+    }
 }
