@@ -1,0 +1,16 @@
+@mixin heading_two($font-size) {
+    .heading2 {
+        font-size: $font-size;
+        margin: 0;
+
+        span {
+            display: block;
+
+            &:last-child {
+                text-align: right;
+                padding-right: 50px;
+            }
+        }
+
+    }
+}

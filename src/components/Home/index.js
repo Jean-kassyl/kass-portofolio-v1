@@ -53,7 +53,7 @@ const Home = () => {
                         </div>     
                     </div>
                     <div>
-                        <h2 className="about-title"><span>About</span><span>.</span><span>/</span></h2>
+                        <h2 className="heading2"><span>About</span><span>.</span><span>/</span></h2>
                     </div>
                 </section>
 
