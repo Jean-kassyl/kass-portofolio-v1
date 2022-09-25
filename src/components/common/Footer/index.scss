@@ -26,3 +26,23 @@ footer {
         }
     }
 }
+
+@media (max-width: $mobile-view) {
+    footer {
+        justify-content: center;
+        
+
+        & > div {
+            flex-direction: column;
+            gap: 30px;
+            
+            & > div {
+                text-align: center;
+                
+                & .icon:hover {
+                    color: $hover-color;
+                }
+            }
+        }
+    }
+}

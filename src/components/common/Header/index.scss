@@ -64,7 +64,7 @@ header {
 }
 
 
-@media (max-width: 413px){
+@media (max-width: $mobile-view){
     header {
         width: 100%;
         display: flex;
