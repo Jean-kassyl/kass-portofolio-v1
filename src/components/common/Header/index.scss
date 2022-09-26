@@ -73,6 +73,7 @@ header {
        
 
         .mobile {
+            display: none;
             position: absolute;
             flex-direction: row;
             gap: 20px;
@@ -82,6 +83,7 @@ header {
             top: 80px;
             left: 0;
             justify-content: center;
+            
 
             li {
                 color: $secondary-color;
@@ -89,6 +91,10 @@ header {
                 &:hover {
                     color: $hover-color;
                 }
+            }
+
+            &.toggling {
+                display: flex;
             }
         }
 
