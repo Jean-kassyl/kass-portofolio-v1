@@ -87,3 +87,27 @@
         }
     }
 }
+
+
+@media (max-width: $mobile-view){
+    .main {
+        padding: 80px 0 40px;
+        flex-direction: column;
+
+        .title {
+            padding-right: 0;
+        }
+
+        .content {
+            padding: 0 22px;
+
+            .input-block {
+
+                .categories {
+                    right: 0;
+                    top: 45px;
+                }
+            }
+        }
+    }
+}
