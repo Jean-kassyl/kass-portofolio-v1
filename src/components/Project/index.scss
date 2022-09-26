@@ -63,6 +63,7 @@
                 border-radius: 3px;
                 position: absolute;
                 right: -106px;
+                display: none;
 
                 label {
                     margin-block: 4px;
@@ -74,6 +75,10 @@
                         outline: none;
                         background-color: $secondary-color;
                     }
+                }
+                
+                &.show {
+                    display: flex;
                 }
             }
         }
@@ -107,6 +112,14 @@
                     right: 0;
                     top: 45px;
                 }
+            }
+
+            .cardParent {
+                margin-top: 50px;
+                display: flex;
+                gap: 20px;
+                flex-direction: column;
+    
             }
         }
     }
