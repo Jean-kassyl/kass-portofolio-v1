@@ -140,3 +140,50 @@ p {
 
     }
 }
+
+@media (max-width: $tablet-view){
+   
+
+    main {
+        padding: 100px 0 40px 8rem;
+    }
+
+    h2 {
+        font-size: 1.1rem;
+    }
+
+    p {
+        font-size: 1rem;
+        margin-bottom: 3rem;
+    }
+
+    .about {
+
+        .text {
+            align-self: flex-end;
+            padding-right: 25px;
+
+            p {
+                font-size: 1rem;
+            }
+    
+            .paragraph1 {
+                margin-bottom: 1rem;
+            }
+        }
+
+       
+    }
+
+    .latest-projects {
+        margin-top: 80px;
+
+        .projects {
+            flex-direction: column;
+            align-items: center;
+        }
+
+    }
+
+
+}

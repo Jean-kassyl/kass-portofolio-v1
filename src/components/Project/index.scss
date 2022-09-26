@@ -111,3 +111,19 @@
         }
     }
 }
+
+@media (max-width: $tablet-view){
+    .main {
+
+        .content {
+
+            .input-block {
+
+                .categories {
+                    right: 0;
+                    top: 45px;
+                }
+            }
+        }
+    }
+}
