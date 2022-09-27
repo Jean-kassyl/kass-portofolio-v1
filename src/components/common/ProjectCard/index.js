@@ -1,29 +1,29 @@
 import './index.scss';
-import SunnyDesk from '../../../assets/images/sunnyside-desk.png'
-import SunnyMob from '../../../assets/images/sunnyside-mob2.png'
 
 
 
 
 
 
-const Card = () => {
+
+const Card = ({info}) => {
+    
     return (
         <div className="card">
             <div className="imageBlock">
                 <div className="desktop">
-                    <img src={SunnyDesk} alt="sunnyside desktop" />
+                    <img src={info.desktop} alt="sunnyside desktop" />
                 </div>
                 <div className="mobile">
-                    <img src={SunnyMob} alt="sunnyside mobile" />
+                    <img src={info.mobile} alt="sunnyside mobile" />
                 </div>
             </div>
             <div className="textBlock">
-                <h4>Project title</h4>
-                <p className="item">Frontend</p>
-                <p>some description of the project.</p>
+                <h4>{info.projectTitle}</h4>
+                <p className="item">{info.category}</p>
+                <p>{info.description}</p>
                 <ul>
-                    <li>Html</li>
+                    <li>{info.tools.join(' ')}</li>
                 </ul>
                 <div className="links">
                     <span>live view</span>

@@ -1,5 +1,4 @@
 import './index.scss';
-import Logo from '../../../assets/images/Logo1.png';
 import {Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faGithub, faLinkedin} from '@fortawesome/free-brands-svg-icons'
@@ -17,7 +16,7 @@ const Header = () => {
    
     return (
         <header>
-            <img src={Logo} alt="logo" className="logo" />
+            <img src='/images/Logo1.png' alt="logo" className="logo" />
     
             <ul  ref={ulRef} className="items mobile" >
                 <Link to='/'>

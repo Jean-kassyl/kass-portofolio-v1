@@ -3,7 +3,7 @@ import Header from '../common/Header'
 import Card from '../common/ProjectCard'
 import Footer from '../common/Footer'
 
-const Home = () => {
+const Home = ({info}) => {
     
     return (
         <div>
@@ -62,8 +62,7 @@ const Home = () => {
                 <section className="latest-projects">
                     <h2>Latest Projects</h2>
                     <div className="projects">
-                        <Card />
-                        <Card />
+                        {info.map(obj => <Card key={obj.id} info={obj}/>)}
                     </div>
                 </section>  
             </main>
