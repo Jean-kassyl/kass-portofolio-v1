@@ -11,15 +11,14 @@ const Home = ({info}) => {
             <main>
                 <div className="padd">
                     <h1>Hi, I am Kassyl, A Software Developer</h1>
-                    <p> who is passionate about using code to build easy and<br /> helpful web solutions <span>!</span></p>
+                    <p className="hero-desc"> who is passionate about using code to build simple and helpful web solutions <span>!</span></p>
                 </div>
 
                 <section className="about">
                     <div className="text">
                         <p className="paragraph1 padd">
-                            Hi I am jean kassyl,
-                            A highly motivated fullstack developer who is passionate about using code to build 
-                            necessary and helpful software.
+                            I am a 
+                            A highly motivated fullstack developer who likes to build human centered softwares
                         </p>
                         <div className="mobile-back padd">
                             <p className="marg">
@@ -42,6 +41,7 @@ const Home = ({info}) => {
                                 <li>ORM</li>
                                 <li>Git</li>
                                 <li>Github</li>
+                                <li>AWS</li>
                             </ul>
                             <ul>
                                 <li>Flask</li>
@@ -62,7 +62,8 @@ const Home = ({info}) => {
                 <section className="latest-projects">
                     <h2>Latest Projects</h2>
                     <div className="projects">
-                        {info.map(obj => <Card key={obj.id} info={obj}/>)}
+                        <Card info={info.reverse()[0]} />
+                        <Card info={info.reverse()[1]} />
                     </div>
                 </section>  
             </main>

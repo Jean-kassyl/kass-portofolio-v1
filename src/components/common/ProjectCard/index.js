@@ -26,8 +26,8 @@ const Card = ({info}) => {
                     <li>{info.tools.join(' ')}</li>
                 </ul>
                 <div className="links">
-                    <span>live view</span>
-                    <span>Github repo</span>
+                    <a href={info.live} target='_blank' rel="noreferrer"><span>live view</span></a>
+                    <a href={info.github} target='_blank' rel="noreferrer"><span>Github repo</span></a>
                 </div>
             </div>
         </div>

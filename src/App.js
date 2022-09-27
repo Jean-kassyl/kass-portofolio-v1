@@ -26,6 +26,17 @@ const projectInfo = [
     tools: ['html', 'css', 'flexbox','grid', 'vanilla javascript'],
     live: 'https://jean-kassyl.github.io/fylo-landingPage',
     github: 'https://github.com/Jean-kassyl/fylo-landingPage'
+  },
+  {
+    id: 3,
+    projectTitle: 'To do app',
+    desktop: '/images/todo-desk.png',
+    mobile: '/images/todo-mob.png',
+    description: 'This project is a simple todo app which allows to add a todo, delete a todo, filters todos. it is provided by frontend mentor for upskilling purpose.',
+    category: 'Frontend',
+    tools: ['html', 'css', 'flexbox', 'vanilla javascript'],
+    live: 'https://jean-kassyl.github.io/fylo-landingPage',
+    github: 'https://github.com/Jean-kassyl/fylo-landingPage'
   }
 ];
 

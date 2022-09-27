@@ -7,7 +7,7 @@ import { faSearch } from '@fortawesome/free-solid-svg-icons';
 import {useRef, useState} from 'react'
 
 
-const Projects = () => {
+const Projects = ({info}) => {
 
     const [selectedOption, setSelectedOption] = useState("All")
     const categories = useRef(null)
@@ -71,10 +71,7 @@ const Projects = () => {
                         </div>
                     </div>
                     <div className="cardParent">
-                        <Card />
-                        <Card />
-                        <Card />
-                        <Card />
+                        {selectedOption === "All"?info.map(obj => <Card info={obj} key={obj.id} />): info.filter(obj => obj.category === selectedOption).map(obj => <Card info={obj} key={obj.id} />)}
                     </div>
                 </div>
             </main>
