@@ -14,9 +14,6 @@ const Card = ({info}) => {
                 <div className="desktop">
                     <img src={info.desktop} alt="sunnyside desktop" />
                 </div>
-                <div className="mobile">
-                    <img src={info.mobile} alt="sunnyside mobile" />
-                </div>
             </div>
             <div className="textBlock">
                 <div class='project-title'>

@@ -8,8 +8,7 @@ const projectInfo = [
   {
     id: 1,
     projectTitle: 'Sunnyside Landing page',
-    desktop: '/images/sunnyside-desk.png',
-    mobile: '/images/sunnyside-mob2.png',
+    desktop: '/images/sunnyside.png',
     description: 'This project is a simple and beautiful landing page. it is provided by frontend mentor for upskilling purpose.',
     category: 'Frontend',
     tools: ['html', 'css', 'flexbox', 'vanilla javascript'],
@@ -19,8 +18,7 @@ const projectInfo = [
   {
     id: 2,
     projectTitle: 'Fylo Landing page',
-    desktop: '/images/fylo-destop.png',
-    mobile: '/images/fylo-mobile.png',
+    desktop: '/images/fylo.png',
     description: 'This project is a simple and beautiful landing page. it is provided by frontend mentor for upskilling purpose.',
     category: 'Frontend',
     tools: ['html', 'css', 'flexbox','grid', 'vanilla javascript'],
@@ -29,9 +27,8 @@ const projectInfo = [
   },
   {
     id: 3,
-    projectTitle: 'To do app',
-    desktop: '/images/todo-desk.png',
-    mobile: '/images/todo-mob.png',
+    projectTitle: 'Todo app',
+    desktop: '/images/todo.png',
     description: 'This project is a simple todo app which allows to add a todo, delete a todo, filters todos. it is provided by frontend mentor for upskilling purpose.',
     category: 'Frontend',
     tools: ['html', 'css', 'flexbox', 'vanilla javascript'],
