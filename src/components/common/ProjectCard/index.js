@@ -19,8 +19,11 @@ const Card = ({info}) => {
                 </div>
             </div>
             <div className="textBlock">
-                <h4>{info.projectTitle}</h4>
-                <p className="item">{info.category}</p>
+                <div class='project-title'>
+                    <h4>{info.projectTitle}</h4>
+                    <p className="item">{info.category}</p>
+                </div>
+                
                 <p>{info.description}</p>
                 <ul>
                     <li>{info.tools.join(' ')}</li>

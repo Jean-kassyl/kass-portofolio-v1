@@ -15,7 +15,7 @@
 
             &.desktop {
                 width: 200px;
-                background-color: maroon;
+            
 
                 img {
                     width: 100%;
@@ -25,7 +25,7 @@
 
             &.mobile {
                 width: 160px;
-                background-color: blue;
+    
 
                 img {
                     width: 100%;
@@ -36,11 +36,17 @@
     }
 
     .textBlock {
-        padding: 8px;
+        padding: 8px 15px;
         width: 370px;
         border: 2px solid #4d5a8f;
         border-radius: 3px;
 
+
+        .project-title {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
         h4 {
             font-size: 1.1rem;
 
@@ -58,7 +64,11 @@
 
         .links {
             display: flex;
-            gap: 30px;
+            justify-content: space-between;
+
+            a {
+                text-decoration: underline;
+            }
         }
 
         .item {
