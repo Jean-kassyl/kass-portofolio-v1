@@ -29,11 +29,11 @@ const projectInfo = [
     id: 3,
     projectTitle: 'Todo app',
     desktop: '/images/todo.png',
-    description: 'This project is a simple todo app which allows to add a todo, delete a todo, filters todos. it is provided by frontend mentor for upskilling purpose.',
+    description: 'This project is a simple todo app with some great features. it is provided by frontend mentor for practice purpose.',
     category: 'Frontend',
     tools: ['html', 'css', 'flexbox', 'vanilla javascript'],
-    live: 'https://jean-kassyl.github.io/fylo-landingPage',
-    github: 'https://github.com/Jean-kassyl/fylo-landingPage'
+    live: 'https://jean-kassyl.github.io/todo-app/',
+    github: 'https://github.com/Jean-kassyl/todo-app'
   }
 ];
 
