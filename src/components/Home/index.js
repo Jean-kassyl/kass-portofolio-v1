@@ -22,12 +22,13 @@ const Home = ({info}) => {
                         </p>
                         <div className="mobile-back padd">
                             <p className="marg">
-                                I have always been concerned about giving back to others through my work and that’s why I volunteered a lot when studying social science. 
-                                I participated on project which aims to empower peoples to fight against hunger, illiteracy and deprivation. 
-                                With adding values to people’s life as an end goal, I’ve always put my all self into every project I participated in.
+                                I have always been concerned about giving back to others through my work. That got me into social science once in college and into 
+                                internships and voluntering afterwards. During my experiences, I participated on project which aims to empower peoples to fight against hunger, illiteracy and deprivation. 
+                                Today with my passion for the Tech world and my skills, I am ready to take up a new challenge which will allow me to continue working towards people's well being.
+                                I am as much passionate for the front end as for the back end and my ultimate goal at the moment is to grow very big as a developer by working and learning on great projects.
                             </p>
                             <p className="marg">
-                                today, I am looking for a role that will let me keep working towards making people’s day to day life easier
+                                Let's be useful and careful for the humanity!
                             </p>
                         </div>
                         <p className="marg padd">
